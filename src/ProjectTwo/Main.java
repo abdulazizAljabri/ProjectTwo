@@ -29,7 +29,7 @@ public class Main {
                 case 1 -> {
                     System.out.println(" Number of Passenger per Trip : ");
                     int maximum = input.nextInt();
-                    //Car 1 is reserve to Route 1 .
+                    //Car 1 is reserve to Route 1  in this System .
                     Car car1 = new Car("Camry", maximum, route1);
                     checkMaximum(maximum);
                     System.out.println("You have a Subscribers :  if Yes Enter : 1  , if No Enter : 0 ");
@@ -54,7 +54,7 @@ public class Main {
                 case 2 -> {
                     System.out.println(" Number of Passenger per Trip : ");
                     int maximum = input.nextInt();
-                    // Car 2 is reserve to Route 2.
+                    // Car 2 is reserve to Route 2 in this System.
                     Car car2 = new Car("Mazda", maximum, route2);
                     checkMaximum(maximum);
                     System.out.println("You have a Subscribers :  if Yes Enter : 1  , if No Enter : 0 ");
