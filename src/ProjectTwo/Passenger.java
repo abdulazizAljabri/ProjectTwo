@@ -1,8 +1,12 @@
+package ProjectTwo;
+
+import ProjectTwo.Car;
+
 public abstract class Passenger extends Car {
 
     private String name;
-    private int ID;
-    private int tripCost;
+    private int id;
+    private double tripCost;
     private Car car;
 
     public Car getCar() {
@@ -21,29 +25,29 @@ public abstract class Passenger extends Car {
         this.name = name;
     }
 
-    public int getID() {
-        return ID;
+    public int getid() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setid(int id) {
+        this.id = id;
     }
 
-    public int getTripCost() {
+    public double getTripCost() {
         return tripCost;
     }
 
-    public int setTripCost(int tripCost) {
+    public double setTripCost(double tripCost) {
         this.tripCost = tripCost;
         return tripCost;
     }
     public Passenger(Car car ,String name,int id){
-        this.ID =id;
+        this.id =id;
         this.car = car;
         this.name = name;
     }
 
-    public abstract int calculateTripCost();
+    public abstract double calculateTripCost();
 
 
     public void display(){

@@ -1,6 +1,11 @@
+package ProjectTwo;
+
+import java.sql.Array;
+import java.util.ArrayList;
+
 public class Car {
     private String code;
-    private int maximumCapacityOfPassengerPerTrip = 4;
+    private static int maximumCapacityOfPassengerPerTrip = 4;
 
     private Route fixedRoute;
 
@@ -13,9 +18,8 @@ public class Car {
         this.fixedRoute = fixedRoute;
     }
 
-    public int setMaximumCapacityOfPassengerPerTrip(int maximumCapacityOfPassengerPerTrip) {
+    public void setMaximumCapacityOfPassengerPerTrip(int maximumCapacityOfPassengerPerTrip) {
         this.maximumCapacityOfPassengerPerTrip = maximumCapacityOfPassengerPerTrip;
-        return maximumCapacityOfPassengerPerTrip;
     }
 
 
@@ -35,8 +39,11 @@ public class Car {
         this.fixedRoute = fixedRoute;
     }
 
-    public int getMaximumCapacityOfPassengerPerTrip() {
+    public static int getMaximumCapacityOfPassengerPerTrip() {
         return maximumCapacityOfPassengerPerTrip;
+    }
+
+    public void reserveCar(Passenger passenger) {
     }
 
 

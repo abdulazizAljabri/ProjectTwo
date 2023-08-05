@@ -1,7 +1,18 @@
+package ProjectTwo;
+
 public class Route  {
     private String pickUpAddress;
     private String destinationAddress;
-    private int tripPrice;
+
+    private double tripPrice;
+
+    public void setTripPrice(double tripPrice) {
+        this.tripPrice = tripPrice;
+    }
+
+    public double getTripPrice() {
+        return tripPrice;
+    }
 
     public Route() {
     }
@@ -28,11 +39,9 @@ public class Route  {
         this.destinationAddress = destinationAddress;
     }
 
-    public int getTripPrice() {
-        return tripPrice;
-    }
-
-    public void setTripPrice(int tripPrice) {
-        this.tripPrice = tripPrice;
+    public void routeInfo(){
+        System.out.println("Pick up address: " + pickUpAddress);
+        System.out.println("Destination address: " + destinationAddress);
+        System.out.println("Trip price: " + tripPrice);
     }
 }
