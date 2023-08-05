@@ -1,7 +1,5 @@
 package ProjectTwo;
 
-import ProjectTwo.Car;
-import ProjectTwo.Passenger;
 
 public class Subscribers extends Passenger {
 

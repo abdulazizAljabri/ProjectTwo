@@ -1,6 +1,5 @@
 package ProjectTwo;
 
-import ProjectTwo.Car;
 
 public abstract class Passenger extends Car {
 
