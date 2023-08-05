@@ -41,8 +41,5 @@ public class Car {
         return maximumCapacityOfPassengerPerTrip;
     }
 
-    public void reserveCar(Passenger passenger) {
-    }
-
 
 }
