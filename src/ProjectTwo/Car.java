@@ -3,7 +3,7 @@ package ProjectTwo;
 
 public class Car {
     private String code;
-    private static int maximumCapacityOfPassengerPerTrip = 4;
+    private static int maximumCapacityOfPassengerPerTrip = 3;
 
     private Route fixedRoute;
 

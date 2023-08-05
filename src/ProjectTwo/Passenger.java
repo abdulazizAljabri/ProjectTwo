@@ -1,7 +1,7 @@
 package ProjectTwo;
 
 
-public abstract class Passenger extends Car {
+public abstract class Passenger extends Car{
 
     private String name;
     private int id;
@@ -40,7 +40,7 @@ public abstract class Passenger extends Car {
         this.tripCost = tripCost;
         return tripCost;
     }
-    public Passenger(Car car ,String name,int id){
+    public  Passenger(Car car ,String name,int id){
         this.id =id;
         this.car = car;
         this.name = name;

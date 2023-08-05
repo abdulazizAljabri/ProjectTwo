@@ -19,7 +19,6 @@ public class Subscribers extends Passenger {
 
     @Override
     public void display() {
-        //todo do we need to call the parent ? is it related to the child or parent?
        System.out.println(super.getName() + " is Subscriber : " + '\n' + " The TripCost after discount : " + getTripCost());
 
     }
